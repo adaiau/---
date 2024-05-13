@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+
+    <!--<link href="css/owl.carousel.css" rel="stylesheet" media="screen">-->
+    <!--<link href="css/owl.theme.css" rel="stylesheet" media="screen">-->
+    <link rel="stylesheet" href="css/midupcss.css" />
+    <link rel="stylesheet" href="css/grxscrollView.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.css"
+    />
+
+    <link href="css/animate.css" rel="stylesheet" type="text/css" />
+
+    <!--<link href="css/lanrenzhijia.css" rel="stylesheet" type="text/css" />-->
+
+    <title>刘凯-前端工程师</title>
+    <!--<script src="js/j"></script>-->
+    <style type="text/css">
+      @font-face {
+        font-family: "Glyphicons Halflings";
+        src: url("fonts/glyphicons-halflings-regular.eot");
+        src: url("fonts/glyphicons-halflings-regular.eot?#iefix")
+            format("embedded-opentype"),
+          url("fonts/glyphicons-halflings-regular.woff") format("woff"),
+          url("fonts/glyphicons-halflings-regular.ttf") format("truetype"),
+          url("fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular")
+            format("svg");
+      }
+
+      @font-face {
+        font-family: "iconfont";
+        src: url("fonts/iconfont.eot"); /* IE9*/
+        src: url("fonts/iconfont.eot#iefix") format("embedded-opentype"),
+          /* IE6-IE8 */ url("fonts/iconfont.woff") format("woff"),
+          /* chrome, firefox */ url("fonts/iconfont.ttf") format("truetype"),
+          /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+            url("fonts/iconfont.svg#iconfont") format("svg"); /* iOS 4.1- */
+      }
+    </style>
+  </head>
+  <body>
+    <!--导航条-->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button
+            type="button"
+            class="navbar-toggle collapsed"
+            data-toggle="collapse"
+            data-target="#navbar"
+            aria-expanded="false"
+            aria-controls="navbar"
+          >
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">个人主页</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a onclick="menuChange(0)">基础资料</a></li>
+            <li><a onclick="menuChange(1)">项目经验</a></li>
+            <li><a onclick="menuChange(2)">专业技能</a></li>
+            <li><a onclick="menuChange(3)">自我评价</a></li>
+            <li class="dropdown">
+              <a
+                class="dropdown-toggle"
+                id="dropdownMenu1"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="true"
+              >
+                联系方式
+                <span class="caret"></span>
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                <li><a onclick="menuChange(6)">电话</a></li>
+                <li><a onclick="menuChange(0)">微信</a></li>
+                <li><a onclick="menuChange(6)">邮箱</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    个人主页
+    <div class="jumbotron">
+      <div class="home">
+        <div class="midup">
+          <h1>求职：前端工程师<span class="brand-heading">-- 刘 凯</span></h1>
+          <p class="intro-text">喜欢技术，热爱挑战</p>
+          <a
+            href="#"
+            class="btn btn-circle page-scroll"
+            onclick="menuChange(0)"
+          >
+            <i class="fa fa-angle-double-down"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!--基本资料-->
+    <div id="midup2">
+      <!--<div class="container">-->
+      <div class="content2">
+        <h1 class="meMessage">基本资料</h1>
+        <hr />
+      </div>
+
+      <div class="content3">
+        <!--<div class="container1">-->
+        <ul>
+          <li>
+            <i class="fa fa-address-book-o" aria-hidden="true"></i>
+            <h4><strong>个人信息</strong></h4>
+            <p>姓名:刘凯&nbsp;&nbsp;<span>性别:男</span></p>
+            <p>年龄:22&nbsp;&nbsp;籍贯:四川</p>
+          </li>
+          <li>
+            <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+            <h4><strong>专业学历</strong></h4>
+            <p>专业:计算机科学与技术</p>
+            <p>学历:本科</p>
+          </li>
+          <li>
+            <i class="fa fa-university" aria-hidden="true"></i>
+            <h4><strong>学校</strong></h4>
+            <p>学校:重庆城市科技学院</p>
+            <p>学习技能：编程</p>
+          </li>
+          <li>
+            <i class="fa fa-dot-circle-o" aria-hidden="true"></i>
+            <h4><strong>求职意向</strong></h4>
+            <p>意向：前端工程师</p>
+            <p>薪资：****</p>
+          </li>
+        </ul>
+      </div>
+      <!--</div>-->
+    </div>
+
+    <!--项目经验-->
+    <div class="project">
+      <h1 class="meMessage">项目经验</h1>
+      <hr />
+      <p style="color: red">
+        提示：以下内容是为了展示动画效果，点击进入<a
+          href="https://github.com/adaiau"
+          >github</a
+        >查看上传代码
+      </p>
+    </div>
+    <div id="selectedImg" class="container">
+      <!-- Filter Controls - Simple Mode -->
+      <div class="row">
+        <ul class="simplefilter">
+          <li class="active" data-filter="all">全部项目</li>
+          <li data-filter="1">项目一</li>
+          <li data-filter="2">项目二</li>
+          <li data-filter="3">项目三</li>
+          <li data-filter="4">项目四</li>
+          <!--<li data-filter="5">项目五</li>-->
+        </ul>
+      </div>
+
+      <div class="row">
+        <!--问题：初始启动页面，图片加载被压缩
+                    解决：需要预先设置一张占位图片，然后js代码中改变src属性值
+                -->
+        <div class="filtr-container">
+          <div
+            class="col-xs-6 col-sm-4 col-md-3 filtr-item"
+            data-category="3"
+            data-sort="Busy streets"
+          >
+            <img
+              class="img-responsive"
+              src="images/city_1.jpg"
+              alt="sample image"
+            />
+            <span class="item-desc">工业车轨</span>
+          </div>
+          <div
+            class="col-xs-6 col-sm-4 col-md-3 filtr-item"
+            data-category="1, 3"
+            data-sort="Luminous night"
+          >
+            <a
+              ><img
+                class="img-responsive"
+                src="images/city_1.jpg"
+                alt="sample image"
+            /></a>
+            <span class="item-desc">工业城市</span>
+          </div>
+          <div
+            class="col-xs-6 col-sm-4 col-md-3 filtr-item"
+            data-category="3"
+            data-sort="City wonders"
+          >
+            <img
+              class="img-responsive"
+              src="images/city_1.jpg"
+              alt="sample image"
+            />
+            <span class="item-desc">工业废铁</span>
+          </div>
+          <div
+            class="col-xs-6 col-sm-4 col-md-3 filtr-item"
+            data-category="1, 2"
+            data-sort="In production"
+          >
+            <img
+              class="img-responsive"
+              src="images/city_1.jpg"
+              alt="sample image"
+            />
+            <span class="item-desc">魅力城市</span>
+          </div>
+          <div
+            class="col-xs-6 col-sm-4 col-md-3 filtr-item"
+            data-category="1, 2"
+            data-sort="Industrial site"
+          >
+            <img
+              class="img-responsive"
+              src="images/city_1.jpg"
+              alt="sample image"
+            />
+            <span class="item-desc">魅力城市</span>
+          </div>
+          <div
+            class="col-xs-6 col-sm-4 col-md-3 filtr-item"
+            data-category="1, 4"
+            data-sort="Peaceful lake"
+          >
+            <img
+              class="img-responsive"
+              src="images/city_1.jpg"
+              alt="sample image"
+            />
+            <span class="item-desc">魅力城市</span>
+          </div>
+          <div
+            class="col-xs-6 col-sm-4 col-md-3 filtr-item"
+            data-category="4"
+            data-sort="City lights"
+          >
+            <img
+              class="img-responsive"
+              src="images/city_1.jpg"
+              alt="sample image"
+            />
+            <span class="item-desc">自然风景</span>
+          </div>
+          <div
+            class="col-xs-6 col-sm-4 col-md-3 filtr-item"
+            data-category="2, 4"
+            data-sort="Dreamhouse"
+          >
+            <img
+              class="img-responsive"
+              src="images/city_1.jpg"
+              alt="sample image"
+            />
+            <span class="item-desc">自然风景</span>
+          </div>
+          <div
+            class="col-xs-6 col-sm-4 col-md-3 filtr-item"
+            data-category="4"
+            data-sort="Restless machines"
+          >
+            <img
+              class="img-responsive"
+              src="images/city_1.jpg"
+              alt="sample image"
+            />
+            <span class="item-desc">自然风景</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--专业技能-->
+    <div class="majorSkill">
+      <div class="container content2">
+        <h1 class="meMessage">专业技能</h1>
+        <hr />
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <img src="img/about.png" alt="电脑" class="img-responsive" />
+        </div>
+        <div class="col-md-6 content7">
+          <!--<div>-->
+          <div class="yidong">
+            <p>
+              1.&nbsp;掌握常用的HTNL标签、H5语义化、CSS样式中样式属性值的计算过程
+            </p>
+            <p>
+              &nbsp;&nbsp;&nbsp;&nbsp;盒模型的原理和使用、常见的布局方式、块级格式化上下文、堆叠上下文
+            </p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;flex弹性盒；能够独立编写一个网页。</p>
+            <p>
+              2.&nbsp;掌握JavaScript(ES6+)的执行上下文、作用域链、闭包、JS对象的内存
+            </p>
+            <p>
+              &nbsp;&nbsp;&nbsp;&nbsp;模型、多种继承方式、V8垃圾回收机制；能够实现多种异步解决方案、
+            </p>
+            <p>
+              &nbsp;&nbsp;&nbsp;&nbsp;DOM操作的优化、优化DOM事件的使用，能够编写防抖、节流等函数。
+            </p>
+            <p>
+              3.&nbsp;熟悉vue全家桶项目开发、理解MVVM框架原理；能够编写一个完整的
+            </p>
+            <p>&nbsp;&nbsp;&nbsp;&nbspvue项目</p>
+            <p>
+              4.&nbsp;熟悉工程化，了解webpack（核心工作原理原理、常用Loader、Plugin及其
+            </p>
+            <p>
+              &nbsp;&nbsp;&nbsp;&nbsp;原理、热替换基本原理、tree-shaking原理、常用性能优化、多种解决
+            </p>
+            <p>
+              &nbsp;&nbsp;&nbsp;&nbsp;CSS工程化方案和babel原理)、常见的包管理工具和模块化标准。
+            </p>
+            <p>
+              5.&nbsp;了解TypeScript的基本类型和枚举、泛型、接口原理和作用、装饰器原理。
+            </p>
+            <p>
+              6.&nbsp;了解浏览器基本原理、浏览器的多进程架构、浏览器的渲染原理、浏览器
+            </p>
+            <p>
+              &nbsp;&nbsp;&nbsp;&nbsp;的内存模型、消息队列和事件循环、浏览器安全、http协议、https协议、跨域的本质
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--自我评价-->-
+    <div id="testimonial">
+      <div class="container content2">
+        <h1 class="meMessage">自我评价</h1>
+        <hr />
+      </div>
+      <div
+        id="carousel-example-generic"
+        class="carousel slide"
+        data-ride="carousel"
+        style="width: 60%"
+      >
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li
+            data-target="#carousel-example-generic"
+            data-slide-to="0"
+            class="active"
+          ></li>
+          <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        </ol>
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+          <div class="item active">
+            <p>本人对JS(ES6+)、vue底层原、webpack、</p>
+            <br />
+            <p>浏览器原理有着较好的理解，并对后端也有浓厚的兴趣，如nodejs。</p>
+          </div>
+          <div class="item">
+            <p>乐于研究技术的底层原理，</p>
+            <br />
+            <p>
+              对技术原理的探究是生活中很好的乐趣，并且，每有收获时，便觉得非常快乐。
+            </p>
+          </div>
+          <div class="item">
+            <p>
+              对学习和研发中所遭遇的技术问题毫不退缩，并愿意持之以恒的解决；
+            </p>
+            <p>
+              在学习知识和解决问题时愿意积极思考并对所学所做有自己的总结认识；喜欢阅读前端官方文档，特别是MDN和W3C的文档。
+            </p>
+          </div>
+        </div>
+        <!-- Controls -->
+        <a
+          class="left carousel-control"
+          href="#carousel-example-generic"
+          role="button"
+          data-slide="prev"
+        >
+          <span
+            class="glyphicon glyphicon-chevron-left"
+            aria-hidden="true"
+          ></span>
+          <span class="sr-only">上一张</span>
+        </a>
+        <a
+          class="right carousel-control"
+          href="#carousel-example-generic"
+          role="button"
+          data-slide="next"
+        >
+          <span
+            class="glyphicon glyphicon-chevron-right"
+            aria-hidden="true"
+          ></span>
+          <span class="sr-only">下一张</span>
+        </a>
+      </div>
+    </div>
+
+    <!--联系方式-->
+    <div id="contact">
+      <div class="container content8">
+        <h1 class="meMessage">联系方式</h1>
+        <hr />
+      </div>
+      <div class="row text-center">
+        <div class="col-md-4">
+          <span class="glyphicon glyphicon-map-marker"></span>
+          <p>住址：四川省广安市</p>
+        </div>
+        <div class="col-md-4">
+          <span class="glyphicon glyphicon-folder-close"></span>
+          <p>Email：adai548524@gmail.com</p>
+        </div>
+        <div class="col-md-4">
+          <span class="glyphicon glyphicon-phone-alt"></span>
+          <p>电话:135-4753-2510</p>
+        </div>
+      </div>
+      <div class="sendMessage">给我发邮件</div>
+
+      <div class="send">
+        <div class="row text-center">
+          <div class="col-md-6">
+            <div class="form-group">
+              <input
+                type="text"
+                id="name"
+                class="form-control"
+                placeholder="主题"
+                required="required"
+                aria-invalid="false"
+              />
+              <p class="help-block text-danger"></p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group">
+              <input
+                type="email"
+                id="email"
+                class="form-control"
+                placeholder="抄送邮箱"
+                required="required"
+                aria-invalid="false"
+              />
+              <p class="help-block text-danger danger-Waring"></p>
+            </div>
+          </div>
+          <!--邮件内容-->
+          <div class="form-group mail-content">
+            <textarea
+              name="message"
+              id="message"
+              class="form-control"
+              rows="4"
+              placeholder="内容"
+              required=""
+              aria-invalid="false"
+            ></textarea>
+            <p class="help-block text-danger"></p>
+          </div>
+        </div>
+        <div id="success">
+          <button type="submit" class="btn btn-success">确认发送</button>
+        </div>
+      </div>
+    </div>
+
+    <!--尾部处理-->
+    <div id="footer">
+      <div class="container-mine">
+        <p>&copy;阿呆ICP凨凪凮夙</p>
+        <ul>
+          <li><i class="fa fa-weixin"></i></li>
+          <li><i class="fa fa-weibo"></i></li>
+          <li><i class="fa fa-twitter"></i></li>
+          <li><i class="fa fa-facebook"></i></li>
+        </ul>
+      </div>
+    </div>
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!--<script src="js/owl.carousel.js"></script>-->
+    <script src="js/grxscrollView.js"></script>
+    <!--<script src="js/jquery.js" type="text/javascript"></script>-->
+    <script src="js/jquery.filterizr.min.js"></script>
+    <script src="js/index.js"></script>
+
+    <!--//图片筛选过滤器-->
+    <script type="text/javascript">
+      $(function () {
+        $(".filtr-container").filterizr();
+      });
+    </script>
+  </body>
+</html>
